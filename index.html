@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LamSTech - Merangkai Teknologi, Menyulam Masa Depan</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="scroll-marker"></div>
+
+  <div id="header-placeholder"></div>
+
+  <section class="hero">
+    <div id="hero-particles"></div>
+    <canvas id="bouncy-ball"></canvas>
+    <img src="assets/images/logo.webp" alt="LamSTech Logo" class="hero-logo" id="logo" />
+    <div class="logo-popup" id="logoPopup">
+      <img src="assets/images/logo.webp" alt="LamSTech Popup" />
+    </div>
+    <div class="logo-overlay" id="logoOverlay"></div>
+    <h1 class="brand-name">LamSTech</h1>
+    <p class="brand-full">Lamongan Software and Technology</p>
+    <p class="tagline">Merangkai Teknologi, Menyulam Masa Depan</p>
+    <div class="hero-buttons">
+      <a href="layanan.html" class="btn-fill-vertical">Lihat Layanan</a>
+      <a href="kontak.html" class="btn-fill-vertical">Hubungi Kami</a>
+    </div>
+  </section>
+
+  <section class="about-brief fade-in">
+    <div class="container">
+      <h2>Sekilas tentang LamSTech</h2>
+      <p>Kami adalah mitra teknologi Anda dalam membangun aplikasi dan website modern. Fokus kami adalah menciptakan
+        solusi digital yang mudah digunakan dan andal.</p>
+    </div>
+  </section>
+
+  <section class="layanan-modern fade-in">
+    <div class="container">
+      <h2>Layanan yang Saya Tawarkan</h2>
+      <div class="layanan-grid">
+        <div class="layanan-card">
+          <div class="icon">🌐</div>
+          <h3>Website Development</h3>
+          <p>Website personal, company profile, landing page, dan e-commerce.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">📱</div>
+          <h3>Android App Development</h3>
+          <p>Aplikasi Android native dan hybrid dengan performa optimal.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">🎨</div>
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, React, dan teknologi modern lainnya.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">⚙️</div>
+          <h3>Backend Development</h3>
+          <p>REST API, server-side logic, otentikasi, dan lainnya.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">💾</div>
+          <h3>Database Design & Integration</h3>
+          <p>Integrasi dan desain database: MySQL, PostgreSQL, MongoDB.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">🛠️</div>
+          <h3>Maintenance & Debugging</h3>
+          <p>Perbaikan bug, pengujian, dan optimasi performa sistem.</p>
+        </div>
+        <div class="layanan-card">
+          <div class="icon">🧩</div>
+          <h3>Jasa Koding Lainnya</h3>
+          <p>Automasi, web scraping, integrasi API, dan lainnya.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="skills-modern fade-in">
+    <div class="container">
+      <h2>Bahasa Pemrograman & Skill</h2>
+
+      <div class="skill-category">
+        <h3>🧱 Backend Languages</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/php" data-icon="php">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/php/white">
+            </div>
+            <span>PHP</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Java</span>
+            <span>Java</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/python" data-icon="python">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/python/white">
+            </div>
+            <span>Python</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/node.js" data-icon="node.js">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/node.js/white">
+            </div>
+            <span>Node.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/go" data-icon="go">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/go/white">
+            </div>
+            <span>Go</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/ruby" data-icon="ruby">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/ruby/white">
+            </div>
+            <span>Ruby</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">C#</span>
+            <span>C#</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/kotlin" data-icon="kotlin">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/kotlin/white">
+            </div>
+            <span>Kotlin</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/rust" data-icon="rust">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/rust/white">
+            </div>
+            <span>Rust</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/scala" data-icon="scala">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/scala/white">
+            </div>
+            <span>Scala</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/elixir" data-icon="elixir">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/elixir/white">
+            </div>
+            <span>Elixir</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/perl" data-icon="perl">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/perl/white">
+            </div>
+            <span>Perl</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/deno" data-icon="deno">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/deno/white">
+            </div>
+            <span>Deno</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🎨 Frontend & Web Markup</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/html5" data-icon="html5">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/html5/white">
+            </div>
+            <span>HTML</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/css" data-icon="css">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/css/white">
+            </div>
+            <span>CSS</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/javascript" data-icon="javascript">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/javascript/white">
+            </div>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/typescript" data-icon="typescript">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/typescript/white">
+            </div>
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/sass" data-icon="sass">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/sass/white">
+            </div>
+            <span>SASS / SCSS</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/webassembly" data-icon="webassembly">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/webassembly/white">
+            </div>
+            <span>WebAssembly</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/pug" data-icon="pug">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/pug/white">
+            </div>
+            <span>Pug (Jade)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>⚙️ Frontend Frameworks</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/react" alt="React">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/react/white" alt="React">
+            </div>
+            <span>React</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/vue.js" alt="Vue.js">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/vue.js/white" alt="Vue.js">
+            </div>
+            <span>Vue.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/angular" alt="Angular">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/angular/white" alt="Angular">
+            </div>
+            <span>Angular</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/jquery" alt="jQuery">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/jquery/white" alt="jQuery">
+            </div>
+            <span>jQuery</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/bootstrap" alt="Bootstrap">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/bootstrap/white" alt="Bootstrap">
+            </div>
+            <span>Bootstrap</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/tailwindcss" alt="Tailwind CSS">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/tailwindcss/white" alt="Tailwind CSS">
+            </div>
+            <span>Tailwind CSS</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/nextdotjs" alt="Next.js">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/nextdotjs/white" alt="Next.js">
+            </div>
+            <span>Next.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/svelte" data-icon="svelte">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/svelte/white">
+            </div>
+            <span>Svelte</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/solid" data-icon="solid">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/solid/white">
+            </div>
+            <span>SolidJS</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/alpinedotjs" data-icon="alpinedotjs">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/alpinedotjs/white">
+            </div>
+            <span>Alpine.js</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🖥️ Backend Frameworks</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/laravel" data-icon="laravel">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/laravel/white">
+            </div>
+            <span>Laravel</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/codeigniter" data-icon="codeigniter">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/codeigniter/white">
+            </div>
+            <span>CodeIgniter</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/express" data-icon="express">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/express/white">
+            </div>
+            <span>Express.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/django" data-icon="django">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/django/white">
+            </div>
+            <span>Django</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/flask" data-icon="flask">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/flask/white">
+            </div>
+            <span>Flask</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/spring" data-icon="spring">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/spring/white">
+            </div>
+            <span>Spring Boot</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/dotnet" data-icon="dotnet">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/dotnet/white">
+            </div>
+            <span>ASP.NET</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/rubyonrails" data-icon="rubyonrails">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/rubyonrails/white">
+            </div>
+            <span>Ruby on Rails</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/fastapi" data-icon="fastapi">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/fastapi/white">
+            </div>
+            <span>FastAPI</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/koa" data-icon="koajs">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/koa/white">
+            </div>
+            <span>Koa.js</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/nestjs" data-icon="nestjs">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/nestjs/white">
+            </div>
+            <span>NestJS</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>📱 Mobile Development</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item no-icon">
+            <span class="icon-box">Java</span>
+            <span>Java (Android)</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/kotlin" data-icon="kotlin">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/kotlin/white">
+            </div>
+            <span>Kotlin</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/flutter" data-icon="flutter">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/flutter/white">
+            </div>
+            <span>Flutter</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/react" data-icon="react">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/react/white">
+            </div>
+            <span>React Native</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/swift" data-icon="swift">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/swift/white">
+            </div>
+            <span>Swift</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Xamarin</span>
+            <span>Xamarin</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/ionic" data-icon="ionic">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/ionic/white">
+            </div>
+            <span>Ionic</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>📦 Databases</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/mysql" data-icon="mysql">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/mysql/white">
+            </div>
+            <span>MySQL</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/postgresql" data-icon="postgresql">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/postgresql/white">
+            </div>
+            <span>PostgreSQL</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/mongodb" data-icon="mongodb">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/mongodb/white">
+            </div>
+            <span>MongoDB</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/sqlite" data-icon="sqlite">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/sqlite/white">
+            </div>
+            <span>SQLite</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/redis" data-icon="redis">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/redis/white">
+            </div>
+            <span>Redis</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Oracle</span>
+            <span>OracleDB</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/apachecassandra" data-icon="apachecassandra">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/apachecassandra/white">
+            </div>
+            <span>Cassandra</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/apachecouchdb" data-icon="apachecouchdb">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/apachecouchdb/white">
+            </div>
+            <span>CouchDB</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Dynamo</span>
+            <span>DynamoDB</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/neo4j" data-icon="neo4j">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/neo4j/white">
+            </div>
+            <span>Neo4j</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🌐 API & Tools</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/firebase" data-icon="firebase">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/firebase/white">
+            </div>
+            <span>Firebase</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/graphql" data-icon="graphql">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/graphql/white">
+            </div>
+            <span>GraphQL</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/supabase" data-icon="supabase">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/supabase/white">
+            </div>
+            <span>Supabase</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/axios" data-icon="axios">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/axios/white">
+            </div>
+            <span>Axios</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/postman" data-icon="postman">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/postman/white">
+            </div>
+            <span>Postman</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">REST</span>
+            <span>RESTful API</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">gRPC</span>
+            <span>gRPC</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/openapiinitiative" data-icon="openapiinitiative">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/openapiinitiative/white">
+            </div>
+            <span>OpenAPI / Swagger</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/insomnia" data-icon="insomnia">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/insomnia/white">
+            </div>
+            <span>Insomnia</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>⚙️ DevOps & Tools</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/git" data-icon="git">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/git/white">
+            </div>
+            <span>Git</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/github" data-icon="github">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/github/white">
+            </div>
+            <span>GitHub</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/gitlab" data-icon="gitlab">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/gitlab/white">
+            </div>
+            <span>GitLab</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/docker" data-icon="docker">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/docker/white">
+            </div>
+            <span>Docker</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/jenkins" data-icon="jenkins">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/jenkins/white">
+            </div>
+            <span>Jenkins</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/vercel" data-icon="vercel">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/vercel/white">
+            </div>
+            <span>Vercel</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/netlify" data-icon="netlify">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/netlify/white">
+            </div>
+            <span>Netlify</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/ansible" data-icon="ansible">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/ansible/white">
+            </div>
+            <span>Ansible</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/terraform" data-icon="terraform">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/terraform/white">
+            </div>
+            <span>Terraform</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/kubernetes" data-icon="kubernetes">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/kubernetes/white">
+            </div>
+            <span>Kubernetes</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/circleci" data-icon="circleci">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/circleci/white">
+            </div>
+            <span>CircleCI</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/travisci" data-icon="travisci">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/travisci/white">
+            </div>
+            <span>Travis CI</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/bitbucket" data-icon="bitbucket">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/bitbucket/white">
+            </div>
+            <span>Bitbucket</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>☁️ Cloud & Hosting</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/firebase" data-icon="firebase">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/firebase/white">
+            </div>
+            <span>Firebase Hosting</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/heroku" data-icon="heroku">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/heroku/white">
+            </div>
+            <span>Heroku</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">AWS</span>
+            <span>AWS</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/googlecloud" data-icon="googlecloud">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/googlecloud/white">
+            </div>
+            <span>Google Cloud</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/digitalocean" data-icon="digitalocean">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/digitalocean/white">
+            </div>
+            <span>DigitalOcean</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Azure</span>
+            <span>Azure</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/railway" data-icon="railway">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/railway/white">
+            </div>
+            <span>Railway</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/render" data-icon="render">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/render/white">
+            </div>
+            <span>Render</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/cloudflare" data-icon="cloudflare">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/cloudflare/white">
+            </div>
+            <span>Cloudflare Pages</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-category">
+        <h3>🧪 Testing Tools</h3>
+        <div class="skill-list-icon">
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/jest" data-icon="jest">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/jest/white">
+            </div>
+            <span>Jest</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/mocha" data-icon="mocha">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/mocha/white">
+            </div>
+            <span>Mocha</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/selenium" data-icon="selenium">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/selenium/white">
+            </div>
+            <span>Selenium</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/php" data-icon="php">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/php/white">
+            </div>
+            <span>PHPUnit</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/cypress" data-icon="cypress">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/cypress/white">
+            </div>
+            <span>Cypress</span>
+          </div>
+          <div class="skill-item no-icon">
+            <span class="icon-box">Playwright</span>
+            <span>Playwright</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/jasmine" data-icon="jasmine">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/jasmine/white">
+            </div>
+            <span>Jasmine</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/chai" data-icon="chai">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/chai/white">
+            </div>
+            <span>Chai</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/pytest" data-icon="pytest">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/pytest/white">
+            </div>
+            <span>Pytest</span>
+          </div>
+          <div class="skill-item">
+            <div class="icon-wrapper">
+              <img class="icon-base" src="https://cdn.simpleicons.org/junit5" data-icon="junit5">
+              <img class="icon-hover" src="https://cdn.simpleicons.org/junit5/white">
+            </div>
+            <span>JUnit</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="skill-note">
+        <p><strong>Catatan:</strong> Daftar di atas mencerminkan kemampuan utama saya, namun saya terbuka untuk
+          teknologi lain yang relevan dengan proyek Anda.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="portofolio-preview fade-in">
+    <div class="container">
+      <h2>Portofolio Kami</h2>
+      <div class="grid-3">
+        <div class="portfolio-item fade-in">Proyek 1</div>
+        <div class="portfolio-item fade-in">Proyek 2</div>
+        <div class="portfolio-item fade-in">Proyek 3</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimoni fade-in">
+    <div class="container">
+      <h2>Apa Kata Klien Kami</h2>
+      <blockquote class="fade-in">
+        "LamSTech sangat membantu kami dalam digitalisasi bisnis!"
+        <footer>— Andi, CEO Startup</footer>
+      </blockquote>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="js/tsparticles.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

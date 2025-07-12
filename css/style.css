@@ -323,8 +323,6 @@ h2 {
   gap: 20px;
 }
 
-/*  */
-
 .layanan-modern {
   padding: 60px 20px;
 }
@@ -361,8 +359,6 @@ h2 {
 .layanan-card:hover .icon {
   transform: scale(1.2) rotate(5deg);
 }
-
-/*  */
 
 .skills-modern {
   padding: 60px 20px;
@@ -506,8 +502,6 @@ h2 {
   border-radius: 6px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
 }
-
-/*  */
 
 .card,
 .portfolio-item {

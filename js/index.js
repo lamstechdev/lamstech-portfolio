@@ -140,7 +140,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   canvas.addEventListener("touchstart", (e) => {
-    e.preventDefault();
     const rect = canvas.getBoundingClientRect();
     const touch = e.touches[0];
     const x = touch.clientX - rect.left;
@@ -148,6 +147,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const dist = Math.hypot(ball.x - x, ball.y - y);
 
     if (dist <= ball.radius) {
+      e.preventDefault();
       isDragging = true;
       dragOffsetX = x - ball.x;
       dragOffsetY = y - ball.y;
@@ -159,8 +159,8 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { passive: false });
 
   canvas.addEventListener("touchmove", (e) => {
-    e.preventDefault();
     if (isDragging) {
+      e.preventDefault();
       const rect = canvas.getBoundingClientRect();
       const touch = e.touches[0];
       const x = touch.clientX - rect.left;

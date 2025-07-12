@@ -17,25 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
   elements.forEach(el => observer.observe(el));
 
   const header = document.querySelector("header");
-  const marker = document.getElementById("scroll-marker");
 
-  if (header && marker) {
-    const headerObserver = new IntersectionObserver(
-      ([entry]) => {
-        if (!entry.isIntersecting) {
-          header.classList.add("scrolled");
-        } else {
-          header.classList.remove("scrolled");
-        }
-      },
-      {
-        root: null,
-        threshold: 0,
-      }
-    );
-
-    headerObserver.observe(marker);
-  }
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 20) {
+      header.classList.add("scrolled");
+    } else {
+      header.classList.remove("scrolled");
+    }
+  });
 
   const toggle = document.querySelector('.menu-toggle');
   const navList = document.querySelector('nav ul');

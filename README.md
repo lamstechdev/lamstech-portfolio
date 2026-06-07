@@ -1,24 +1,10 @@
-# Lamstech Portfolio
+# Lamstech Developer
 
-This is the official personal portfolio website for **Lamstech**, built using basic web technologies:
+## Android & Website Developer
 
-- HTML
-- CSS
-- JavaScript
+**<https://lamstech.com>**
 
-The site is live at: [https://lamstech.vercel.app](https://lamstech.vercel.app)
-
-## ✨ Features
-
-- Responsive layout for mobile and desktop
-- Clean and modern design
-- Hosted for free on [Vercel](https://vercel.com)
-
-## 🚀 Getting Started
-
-To run this site locally:
-
-```bash
-git clone https://github.com/lamstechdev/lamstech-portfolio.git
-cd lamstech-portfolio
-open index.html
+```text
+Freelance : Available
+WhatsApp  : +62 838 3208 7838
+```
